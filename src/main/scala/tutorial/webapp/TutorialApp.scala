@@ -145,7 +145,7 @@ object TutorialApp extends JSApp {
         ),
         footer(id := "info")(
           p("Double-click to edit a todo"),
-          p(a(href := "https://github.com/lihaoyi/workbench-example-app/blob/todomvc/src/main/scala/example/ScalaJSExample.scala")("Source Code"))
+          p(a(href := "https://github.com/gleba/scalajs-todorx/blob/master/src/main/scala/tutorial/webapp/TutorialApp.scala")("Source Code"))
         )
       ).render
     )
